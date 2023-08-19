@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "version": "${version}",
+
+  "name": "Kotlin Skeletal",
+  "description": "Example Mod with Kotlin",
+  "authors": [
+    "HO-Artisan"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MPL-2.0",
+  "icon": "logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.hoartisan.example.ExampleMain::jumpIn"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
